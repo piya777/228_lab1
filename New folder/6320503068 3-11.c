@@ -1,11 +1,9 @@
 #include<stdio.h>
-#include<math.h>
     void main()
     {
-        unsigned long long int N;
+        unsigned long long int N ,mthree ,mele;
         scanf("%llu",&N);
-        if ( N>=0 && N<pow(10,1000000) )
-        {
-            printf("%llu %llu",N%3 ,N%11);
-        }
+        mthree=N%3;
+        mele=N%11;
+        printf("%llu %llu",mthree ,mele);
     }
