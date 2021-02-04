@@ -2,13 +2,13 @@
 
     void main()
     {
-        long int n;
-        scanf("%ld",&n);
+        int n;
+        scanf("%d",&n);
 
-        long int Num[n] ,i ,max=0 ,lo=0;
+        int Num[n] ,i ,max=0 ,lo=0;
         for( i=0 ; i<n ; i++ )
         {
-            scanf("%ld",&Num[i]);
+            scanf("%d",&Num[i]);
         }
 
         for( i=0 ; i<n ; i++ )
@@ -19,5 +19,5 @@
                 lo=i+1;
             }
         }
-        printf("%ld %ld",lo ,max);
+        printf("%d %d",lo ,max);
     }
