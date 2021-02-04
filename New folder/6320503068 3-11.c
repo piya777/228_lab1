@@ -2,7 +2,7 @@
 #include<math.h>
     void main()
     {
-        unsigned long int N;
+        unsigned long long int N;
         scanf("%d",&N);
         if ( N>=0 && N<pow(10,1000000) )
         {
