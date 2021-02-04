@@ -6,6 +6,6 @@
         scanf("%llu",&N);
         if ( N>=0 && N<pow(10,1000000) )
         {
-            printf("%d %d",N%3 ,N%11);
+            printf("%llu %llu",N%3 ,N%11);
         }
     }
